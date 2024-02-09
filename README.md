@@ -1,4 +1,4 @@
-# porject my brain si so slow rn
+# music player project WAHOOO
 
 - [ ] music player
 - [x] make repository
