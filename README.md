@@ -3,6 +3,5 @@
 - [ ] music player
 - [x] make repository
 - [ ] make gui
-- [ooo what does this button do] 
 - [ ] coding?
-- [ ] what else i forgor <skull emoji>
+- [ ] what else i forgor 💀
