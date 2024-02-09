@@ -1,7 +1,8 @@
 # porject my brain si so slow rn
-NOT EVEN THE RIGHT PROJECT NOOOOOOOO
 
-- [ ] huh?
-- [x] completed
-- [ ] <del> NUH UH <del>
-- [ ] 
+- [ ] music player
+- [x] make repository
+- [ ] make gui
+- [ooo what does this button do] 
+- [ ] coding?
+- [ ] what else i forgor <skull emoji>
