@@ -1,7 +1,6 @@
-# music player project WAHOOO
+# music player project website(?)
 
 - [ ] music player
 - [x] make repository
 - [ ] make gui
-- [ ] coding?
-- [ ] what else i forgor 💀
+- [ ] perhaps sleep tonight
