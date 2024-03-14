@@ -12,49 +12,64 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
      <style>
-      * {
-            box-sizing: border-box;
+      * { box-sizing: border-box;
             font-size: 2vw;
         }
-      div { //border: thin dotted red;}
-     header { 
-       border: 3px solid blueviolet;
-       padding: 12px;
-       font-size: 4vw;
-       font-family: sans-serif;
 
+      div { border: thin dotted red;
+      }
+
+      header { 
+        width: 100%;
+        border: 3px solid blueviolet;
+        padding: 12px;
+        font-size: 4vw;
+        font-family: sans-serif;
      }
-      nav { width: 25%;
-            float: left;
-            padding: 12px;
-            border: 3px solid rgb(0,100,160);
-            font-family: sans-serif;
-            }
-      aside { width: 25%;
-              float: right;
-              padding: 12px;
-              border: 3px solid brown;}
-      section { width: 25%;
-        float: left;
-        padding: 2px;
-        border: 2px solid yellow;
 
+      nav { 
+        width: 25%;
+        float: left;
+        padding: 10px;
+        border: 3px solid rgb(0,100,160);
+        font-family: sans-serif;
       }
-      main { width: 50%;
-            float: left;
-            padding: 12px;
-            border: 3px solid rgb(69,0,142);
-            font-family: sans-serif;
-          }
-      article { width: 12%;
-                float: left;
-                padding: 0px;
-                
+
+      aside { 
+        width: 25%;
+        float: right;
+        padding: 10px;
+        border: 3px solid brown;
       }
-      footer { width: 80%;
-               float: left;
-               padding: 12px;
-               border: 3px solid royalblue;} 
+
+      section { 
+        width: 25%;
+        float: left;
+        padding: 10px;
+        border: 3px solid yellow;
+      }
+
+      main { 
+        width: 50%;
+        float: left;
+        padding: 10px;
+        border: 3px solid rgb(69,0,142);
+        font-family: sans-serif;
+      }
+
+      article { 
+        width: 25%;
+        float: left;
+        padding: 10px;
+        border: 3px solid rgb(69,69,69);
+      }
+
+      footer {
+        width: 100%;
+        float: left;
+        padding: 10px;
+        border: 3px solid royalblue;
+      } 
 
      </style>
 
@@ -65,13 +80,60 @@
     <!-- what the goddamn is a semantic tag-->
     <body>
       <div>dividion</div>
-      <header>Music PLayer promo</header>
-      <nav>please imagine this uses the proper hyperlinks, i dont know how to make them yet. hyperlink hyperlink hyperlink hyperlink</nav>
-      <p><main>my music player is certainly the best, believe me, i would know. i am certainly not lying to you for the sake of marketing and greed, no siree, how could you think that of my character?? i will have you executed by the french you heretical peasant.</main></p>
-      <aside>aside[?]</aside>
-      <section>section</section>
-      <article>thing</article>
-      <footer>disclaimer, note, please don open code it make me very sad :'(</footer>
+      <header class=".header">
+        Music Player promo
+      </header>
+
+      <nav class="nav">
+        <h3 style="text-align: center;">largest is h2, nav uses h3</h3>
+        <!--hyperlinks do not have formatting, use unorganized or organized lists-->
+        <ul style="list-style-type: none;">
+          <!--none removes the symbol for list items-->
+          <li> loop back: <a href="../index.html" target="_blank">Home Page</a></li>
+          <br></br>
+          <li> what should each page have: <a href="../child pages/MetaData.html" target="_blank">MetaData</a></li>
+          <br></br>
+          <li> what is possible with text: <a href="../child pages/ExpHPage.html" target="_blank">Text Experimental Page</a></li>
+          <br></br>
+          <li> a more powerful way of using font size in viewport: <a href="../child pages/VWAndFontSize.html" target="_blank">Viewport Units 1-6</a></li>
+          <br></br>
+          <li> what an image looks like: <a href="../child pages/images.html" target="_blank">Images lesson</a></li>
+          <br></br>
+          <li> what each page will look like when blank: <a href="" target="_blank">Child Template Page</a></li>
+        </ul>
+        
+        <p>Use a text editor to craft white text for the nav items.</p>
+        <p>Use "ol" with style="type="1|a|A|i|I;" if you want numbered pages</p>
+        <p>Remember, the layout of list tags & a-tags creates high contrast with
+        hyperlinked colour text. 
+        Some viewers struggle with low contrast text and colours. (me >:)
+        </p>
+        <p>CAUTION: Use the DOC-Map to craft all the pages, use the file names in childTemplate before creating the actual files.
+        This will COPY/PASTE childTemplate to new pages with the same NAV Layout. 
+        </p>
+
+      </nav>
+
+      <main class="main">
+        wuh oh
+      </main>
+
+      <aside class="aside">
+        it seems ive spent
+      </aside>
+
+      <section class="main">
+        a little too long
+      </section>
+
+      <article class="main">
+        figuring things out
+      </article>
+
+      <footer class="footer">
+        woopsies.
+        disclaimer, i aaaaaaauuuuuuuuuuuuuuuuuuuuuugh
+      </footer>
 
     </body>
     <footer>
