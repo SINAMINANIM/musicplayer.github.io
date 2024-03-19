@@ -1,4 +1,8 @@
 thanks fr reading me :3
-no images bc of the 4 i have 3 are my own creation with no site
-(1 photo of my ferret, 2 pixil art doodles)
-and the 4th is a webp and i didnt notice til i downloaded and moved on
+
+i got an image!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+just the one bc the 4 others i have are either a) only available
+as a file, no website and b) A WEBP BECAUSE I FORGOt its bad
+
+i can copy the code well enough!!!!! and put my own image in!!!
+im jsut not because :3
