@@ -9,5 +9,7 @@ i forgot :D
 - [x] semantic tags
 - [ ] promo material
 - [ ] images
-- [ ] ????
-- [ ] profit
+- [ ] metadata
+- [ ] child pages
+- [ ] dev page
+- [ ] ?
