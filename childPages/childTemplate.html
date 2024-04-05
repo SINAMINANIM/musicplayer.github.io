@@ -3,75 +3,81 @@
     <head>
       <!-- USED BY KEYBOArD -->
      <meta charset="utf-8"> 
-     <title>music player promotional website (real)</title>
-     <link rel="icon" type="image/x-icon" href="../musicplayerwwebsite.github.io/Images/daybroken.ico">
+     <title>child temp</title>
      <!-- favicon thing https://www.w3schools.com/howto/howto_html_favicon.asp -->
      <!--VV used by good ol google chromium VV-->
      <meta name="author" content="Lily Anne Buckingham">
-     <meta name="description" content="making a website in html :3">
+     <meta name="description" content="learning html">
      <meta name="keywords" content="learning, html, boilerplate, starter">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
      <style>
-      * { 
-          box-sizing: border-box;
-          //font-size: 2vw;
+      * {
+            box-sizing: border-box;
+            //font-size: 2vw;
         }
 
+        h1 {
+          text-align: center;
+        }
       div { 
+        color: black;
         border: thin dotted red;
       }
 
-      header { 
-        width: 100%;
-        border: 5px solid rgb(22, 7, 159);
-        padding: 8px;
-        //font-size: 4vw;
-        font-family: sans-serif;
+     header { 
+       border: 2px solid blueviolet;
+       padding: 10px;
+       //font-size: 4vw;
+       font-family: sans-serif;
      }
 
       nav { 
         width: 25%;
         float: left;
         padding: 10px;
-        border: 3px solid rgb(0,100,160);
+        border: 2px solid rgb(0,100,160);
         font-family: sans-serif;
-      }
+     }
 
       aside { 
         width: 25%;
-        float: right;
+        float: left;
         padding: 10px;
-        border: 3px solid brown;
+        border: 2px solid brown;
+        font-family: sans-serif;
       }
 
       section { 
         width: 50%;
         float: left;
+        border: 2px solid yellowgreen;
         padding: 10px;
-        border: 3px solid yellow;
+        font-family: sans-serif;
       }
 
       main { 
         width: 50%;
         float: left;
         padding: 10px;
-        border: 3px solid rgb(69,0,142);
+        border: 2px solid rgb(69,0,142);
         font-family: sans-serif;
-      }
+          }
 
       article { 
         width: 50%;
         float: left;
         padding: 10px;
-        border: 3px solid rgb(69,69,69);
+        border: 2px solid green;
+        font-family: sans-serif;
       }
 
-      footer {
+      footer { 
         width: 100%;
         float: left;
         padding: 10px;
-        border: 3px solid royalblue;
+        border: 2px solid royalblue;
+        font-family: sans-serif;
       } 
 
      </style>
@@ -80,20 +86,23 @@
     
      <!--websites load in a sppecific order and are really fucking slow-->
     </head>
-    <!--VV what the goddamn is a semantic tag VV-->
-    <body>
-      <div>dividion</div>
-      <header class=".header">
-        <h1 style="text-align: center;">Fantastic Music Players</h1>
-        <h3 style="text-align: center;">and Where to Find Them</h3>
-      </header>
+    <!-- what the goddamn is a semantic tag-->
+     <body>
 
+      <div>
+        viewports off
+      </div>
+      <header class="header">
+        <h1>Child Template Page</h1>
+        <h2 style="text-align: center;">H3; subtitle</h2>
+        <p>pargraphical tagging; any wordses</p>
+      </header>
       <nav class="nav">
-        <h3 style="text-align: center;">Nav Centre</h3>
+        <h3 style="text-align: center;">largest is h2, nav uses h3</h3>
         <!--hyperlinks do not have formatting, use unorganized or organized lists-->
         <ul style="list-style-type: none;">
           <!--none removes the symbol for list items-->
-          <li> loop back: <a href="../MusicPlayerMain.github.io/index.html" target="_blank">Home Page</a></li>
+          <li> loop back: <a href="../index.html" target="_blank">Home Page</a></li>
           <br></br>
           <li> what should each page have: <a href="../child pages/MetaData.html" target="_blank">MetaData</a></li>
           <br></br>
@@ -103,11 +112,12 @@
           <br></br>
           <li> what an image looks like: <a href="../child pages/images.html" target="_blank">Images lesson</a></li>
           <br></br>
-          <li> what each page will look like when blank: <a href="../learn-html.github.io/child pages/childTemplate.html" target="_blank">Child Template Page</a></li>
+          <li> what each page will look like when blank: <a href="../index.html" target="_blank">Child Template Page</a></li>
         </ul>
         
+        <p>Use a text editor to craft white text for the nav items.</p>
         <p>Use "ol" with style="type="1|a|A|i|I;" if you want numbered pages</p>
-        <p>the layout of list tags & a-tags creates high contrast with
+        <p>Remember, the layout of list tags & a-tags creates high contrast with
         hyperlinked colour text. 
         Some viewers struggle with low contrast text and colours. (me >:)
         </p>
@@ -116,41 +126,48 @@
         </p>
 
       </nav>
+
       <main class="main">
-        <h1 style="text-align: center;">probably here</h1>
+        <h1>main h-tags in h1</h1>
+        <h2>H2; subtitling</h2>
            <section class="main">
-             <h2>section</h2>
-             <h3>lorem ipsum</h3>
-             <p>paragraphs can hold different types of <sup>large</sup> and <sub>small</sub> writing.</p>
-             <a>hyperlinking in "a" tags</a>
+             <h2>sections htags in h2</h2>
+             <h3>subtitle usually stops here, you can use strong if youd like bolding</h3>
+             <p>paragraphs can hold different types of <sup>large</sup> and <sub>small</sub> writing. For additional examples,  the formula for Sodium Phosphide is Na<sub>3</sub>P, and 4<sup>2</sup> equals 16.</p>
+             <a>hypelrinking</a>
+                <article class="main">Article in Section in Main
+                 <h3>H3; text</h3>
+                </article>
            </section>
-               <article class="main">
-                <h2>article</h2>
-                <h3>lorem ipsum</h3>
+               <article class="main">Article H-Tags
+                <h2>H2; text</h2>
+                <h3>H3; text</h3>
                </article>
       </main>
-      <aside class="aside">
-        <h2>aside</h2>
-        <h3>lorem ipsum</h3>
-        <br><br><br><br><br><br><br><br><br><br><br>
+      <aside class="aside">Aside H-Tags
+        <h2>H2; largest text tag</h2>
+        <h3>H3; text</h3>
+        <br></br><br></br><br></br><br></br><br></br><br></br>
       </aside>
       <section class="main">
         <h2>sections htags in h2</h2>
         <h3>subtitle usually stops here, you can use strong if youd like bolding</h3>
-        <a>hyperlinking in "a" tags</a>
-        <br>
+        <p>do whatever u want its a section lmao. putting more text to pad this a bit.</p>
+        <a>hypelrinking</a>
+        <br></br>
       </section>
       
-      <article class="main">
+      <article class="main">Article H-Tags
         <h2>H2; text</h2>
         <h3>H3; text</h3>
       </article>
-      <footer class="footer" style="text-align: center;">
+      <footer class="footer" style="text-align: center;">Footer H-Tags
         <h1>H1; text</h1>
         <h2>H2; text</h2>
       </footer>
 
     </body>
+
     <footer>
       <blockquote cite="https://parade.com/940913/parade/funny-quotes/"> 
       <!-- date accessed 2024 feb 14-->
