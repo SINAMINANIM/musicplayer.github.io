@@ -8,7 +8,8 @@ i forgot :D
 - [x] website hosting
 - [x] semantic tags
 - [ ] promo material
-- [x] images (one so far)
-- [ ] audio playing on command
-- [ ] ????
-- [ ] profit
+- [ ] images
+- [ ] metadata
+- [ ] child pages
+- [ ] dev page
+- [ ] ?
